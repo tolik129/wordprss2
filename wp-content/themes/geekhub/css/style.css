@@ -484,8 +484,9 @@ body span.line
     padding: 24px 5px 24px 0;
     border-top: 1px solid #D2DCE1;
     cursor: pointer;
+    height: 500px;
 }
-#content .home ul.types li.left-col{
+#content .home ul.types li:nxt-child(3n+1){
     clear: both;
 }
 #content .home ul.types li img {
